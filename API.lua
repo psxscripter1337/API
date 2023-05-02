@@ -8,7 +8,7 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 
-local Networking = require(game.ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client"):WaitForChild("Network"))
+Networking = require(game.ReplicatedStorage:WaitForChild("Library"):WaitForChild("Client"):WaitForChild("Network"))
 
 
 if (not getgenv().RemoteHooking) then
