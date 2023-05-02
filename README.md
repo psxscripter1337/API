@@ -6,6 +6,9 @@ Networking.Fire("Update Hoverboard State", true")
 
 # functions
 
+## BypassAntiCheat()
+Disables blunder logs and stuff, just use it at the top and you should be fine
+
 ## TeleportToBank()
 Teleports script executioner to the bank
 
